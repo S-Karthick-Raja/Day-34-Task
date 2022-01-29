@@ -103,7 +103,7 @@
  //To Create DB for multiple review and users
 
     CREATE TABLE movie_review (
-        movie_id INTEGER PRIMARY KEY,
+        movie_id INTEGER ,
         title TEXT,
         review TEXT,
         user TEXT
